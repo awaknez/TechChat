@@ -1,0 +1,157 @@
+/* font-family: 'Open Sans', sans-serif; OpenSansフォントを使うときはこのコードを*/
+/* （セレクタ） {
+  letter-spacing: 3px;
+}  これでも時間のスペースを調整する。*/
+
+.header-contents{
+  width: 100vw;
+  height: 65px;
+  background-color: #1c3667; /**/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  margin-left: 20px;
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 100;
+  color: #FFFFFF;
+  letter-spacing: 1.8px;
+  background-color: aquamarine; /*後で消す*/
+}
+
+.new_btn{
+  width: 80px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  margin-right: 20px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+.new_btn a{
+  color: #3a3736;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.body-wrapper{
+  height: calc(100vh - 65px);
+  background-color: #f2f2f3;
+}
+
+.question-index{
+  width: 700px;
+  margin: 0 auto ;
+  padding-top:90px;
+  background-color: aquamarine; /*後で消す*/
+}
+
+.question-body{
+  height: 100px;
+  background-color: bisque;/*後で消す*/
+  display: flex;
+  margin-bottom:25px;
+  border-bottom: 1px solid black;/*後で消す*/
+}
+
+.comments-count{
+  width:70px;
+  background-color: #1c3667;
+  text-align: center;
+  border-radius: 5px 0 0 5px;
+}
+
+.counts{
+  height: 38px;
+  margin-top: 20px;
+  font-size: 26px;
+  color:#FFFFFF;
+  line-height: 38px;
+}
+
+.unit{
+  color:#FFFFFF;
+  font-size: 11px;
+  height:16px;
+  line-height: 16px;
+}
+
+.questions{
+  width: 630px;
+  padding:10px 15px;
+  background-color: #FFFFFF;
+}
+
+.title-name{
+background-color: lightcyan;/*後で消す*/
+display: flex;
+justify-content: space-between;
+}
+
+.title{
+  width: 500px;
+  font-size: 14px;
+background-color: violet; /*後で消す*/
+}
+
+.name{
+  font-size: 12px;
+}
+
+.content{
+  font-size:12px;
+}
+
+/*ここからnew画面のcss*/
+
+.new-form{
+  width: 700px;
+  padding-top: 80px;
+  background-color: aquamarine; /*後けし*/
+  margin: 0 auto ;
+
+}
+.new-head{
+  height: 45px;
+  width: 100%;
+  background-color: #1c3667;
+  border-radius: 5px 0 0 5px;
+}
+
+.form-body{
+  background-color: #FFFFFF;
+  width: 100%;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.send-btn{
+  height: 36px;
+  width:520px;
+  color:#FFFFFF;
+  background-color: #1C3667;
+  font-size: 18px;
+  margin-bottom:40px;
+}
+
+.new-title{
+  margin:40px auto 15px;
+  height:30px;
+  width: 520px;
+}
+
+.new-content{
+  height: 120px;
+  width:520px;
+  margin-bottom: 15px;
+}
+
+.new-user{
+  width: 520px;
+  height: 30px;
+  /* margin-bottom: 20px; これを加えると余分な余白ができる。なぜ？*/
+}

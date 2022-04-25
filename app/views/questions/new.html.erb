@@ -1,0 +1,15 @@
+<div class="body-wrapper">
+   <div class="new-form">
+      <div class="new-head">
+      </div>
+      <div class="form-body">
+         <%= form_with model: @question, local: true do |form| %>
+            <%= form.text_field :title, placeholder:"タイトル", class: "new-title"%><br>
+            <%= form.text_area :content, placeholder:"質問内容", class: "new-content"%><br>
+            <%= form.text_field :name, placeholder:"投稿者名", class: "new-user"%><br><br>
+            <%= form.submit 'POST', class: "send-btn"%>
+         <% end %>
+      </div>
+   </div>
+</div>
+

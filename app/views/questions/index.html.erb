@@ -1,0 +1,26 @@
+
+<div class="body-wrapper">
+   <div class="question-index">
+       <% @questions.each do |hoge|%>
+            <div class="question-body">
+                   <div class="comments-count">
+                         <p class="counts">0</p>
+                         <p class="unit">comments</p>
+                   </div>
+                        <div class="questions">
+                        <div class="title-name">
+                              <div class="title">
+                              <%= hoge.title%>
+                              </div>
+                              <div class="name">
+                              <%= hoge.name%>
+                              </div>
+                        </div>
+                              <div class="content">
+                              <%= hoge.content%>
+                              </div>
+                        </div>
+            </div>
+       <% end %>
+   </div>
+</div>
